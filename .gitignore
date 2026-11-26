@@ -19,11 +19,21 @@ WEBSERVICEPROGRESS.*
 
 WebService.dll
 WebService.pdb
-
+# MSVC output files
 *.obj
 *.exp
 *.ilk
+*.idb
+*.pch
+BuildLog.htm
 vc[0-9][0-9].pdb
+
+# VS user files
+*.suo
+*.user
+# VS upgrade files
+_UpgradeReport_Files/
+UpgradeLog*.XML
 
 /data/
 *.gpr
@@ -35,3 +45,4 @@ vc[0-9][0-9].pdb
 .cache/
 
 /out*.json
+/VC8
