@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "BrowserView.h"
 
 #include "BrowserViewExternal.h"

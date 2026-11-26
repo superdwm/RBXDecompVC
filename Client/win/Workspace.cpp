@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Workspace.h"
 
 #include "Content.h"

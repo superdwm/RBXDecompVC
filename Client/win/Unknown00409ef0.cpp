@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Unknown00409ef0.h"
 
 #include "util/Http.h"

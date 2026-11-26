@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Roblox.h"
 
 #include "AboutRobloxDialog.h"

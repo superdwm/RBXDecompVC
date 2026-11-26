@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Content.h"
 
 #include "InstanceExplorer.h"

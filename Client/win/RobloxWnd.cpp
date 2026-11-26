@@ -1,3 +1,4 @@
+#include "stdafx.h"
 // clang-format off
 #include <OgreAnimation.h>
 #include <OgreCamera.h>

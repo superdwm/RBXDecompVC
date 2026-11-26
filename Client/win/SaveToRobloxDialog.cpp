@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "SaveToRobloxDialog.h"
 
 #include <exdispid.h>

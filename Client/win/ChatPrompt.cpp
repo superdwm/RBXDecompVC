@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "ChatPrompt.h"
 
 #include "ChatEnter.h"

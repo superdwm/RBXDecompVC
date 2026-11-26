@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "SelectionCaption.h"
 
 IMPLEMENT_DYNAMIC(CSelectionCaption, CStatic)

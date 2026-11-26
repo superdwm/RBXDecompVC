@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "ChildFrm.h"
 
 #include "MainFrm.h"

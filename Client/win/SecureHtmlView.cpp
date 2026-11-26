@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "SecureHtmlView.h"
 
 #include "InstanceExplorer.h"

@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "SettingsDialog.h"
 
 #include "v8datamodel/GlobalSettings.h"

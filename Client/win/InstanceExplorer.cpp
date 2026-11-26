@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "InstanceExplorer.h"
 
 #include "InsertObjectDialog.h"

@@ -1,3 +1,4 @@
+#include "stdafx.h"
 /*
 Module : ScintillaCtrl.CPP
 Purpose: Defines the implementation for an MFC wrapper class for the Scintilla edit control (www.scintilla.org)

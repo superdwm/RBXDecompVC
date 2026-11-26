@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "MainFrm.h"
 
 #include "PropGrid.h"

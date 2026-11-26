@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "ObjectBrowser.h"
 
 #include "ClassTreeView.h"

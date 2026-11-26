@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "NullDoc.h"
 
 IMPLEMENT_DYNCREATE(CBrowserFrameWnd, CXTPFrameWnd)

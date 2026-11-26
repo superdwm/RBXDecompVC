@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "ScriptDoc.h"
 
 #include "SciLexer.h"

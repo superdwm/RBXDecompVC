@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "RobloxView.h"
 
 #include "ActiveDocView.h"

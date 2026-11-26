@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "WebToolbox.h"
 
 #include "Roblox.h"

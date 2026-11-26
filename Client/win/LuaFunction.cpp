@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "LuaFunction.h"
 
 #include "Content.h"

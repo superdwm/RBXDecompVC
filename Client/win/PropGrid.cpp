@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "PropGrid.h"
 
 #include "Roblox.h"

@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "LDraw2RobloxMapRoot.h"
 
 #include "LuaWriter.h"

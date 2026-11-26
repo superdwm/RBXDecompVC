@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "LDraw2RobloxColorMap.h"
 
 namespace RBX {

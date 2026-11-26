@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "DxUserInput.h"
 
 #include "ActiveDocView.h"

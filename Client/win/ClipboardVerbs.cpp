@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "ClipboardVerbs.h"
 
 #include "v8datamodel/Selection.h"

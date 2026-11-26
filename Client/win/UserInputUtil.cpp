@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "UserInputUtil.h"
 
 #include "util/Rect.h"

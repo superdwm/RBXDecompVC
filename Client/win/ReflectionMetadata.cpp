@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "ReflectionMetadata.h"
 
 #include "v8xml/SerializerV2.h"

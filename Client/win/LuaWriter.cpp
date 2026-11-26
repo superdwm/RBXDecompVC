@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "LuaWriter.h"
 
 #include "LDrawCommand.h"

@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "LDrawCommand.h"
 
 #include "LDraw2RobloxMapRoot.h"

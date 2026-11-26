@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "RBXImage.h"
 
 #include <atlalloc.h>

@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "InsertObjectDialog.h"
 
 // FUNCTION: ROBLOX 0x0041ff10

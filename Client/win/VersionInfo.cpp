@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "VersionInfo.h"
 
 // FUNCTION: ROBLOX 0x0046e640

@@ -1,3 +1,4 @@
+#include "stdafx.h"
 /*
 Module : ScintillaDocView.CPP
 Purpose: Defines the implementation for MFC CView and CDocument derived wrapper classes for the Scintilla 

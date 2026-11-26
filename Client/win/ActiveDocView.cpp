@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "ActiveDocView.h"
 
 #include "script/Script.h"

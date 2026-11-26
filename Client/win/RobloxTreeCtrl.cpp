@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "RobloxTreeCtrl.h"
 
 #include "MarshaledListener.h"
