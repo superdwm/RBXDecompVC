@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="boost_signals"
+	ProjectGUID="{6A0F747E-CDF5-5E5F-8A3A-9DE9810167F8}"
+	RootNamespace="boost_signals"
+	Keyword="Win32Proj"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="4"
+			>
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCXMLDataGeneratorTool" />
+			<Tool Name="VCWebServiceProxyGeneratorTool" />
+			<Tool Name="VCMIDLTool" />
+			<Tool
+				Name="VCCLCompilerTool"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+				RuntimeLibrary="2"
+				ForceConformanceInForLoopScope="true"
+				TreatWChar_tAsBuiltInType="true"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				WarningLevel="3"
+				RuntimeTypeInfo="true"
+				PreprocessorDefinitions="BOOST_ALL_NO_LIB=1;NDEBUG"
+				AdditionalIncludeDirectories=".\Client\boost_1_34_1\src"
+				AdditionalOptions="/EHs /wd4675"
+			/>
+			<Tool Name="VCManagedResourceCompilerTool" />
+			<Tool Name="VCResourceCompilerTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)\libboost_signals-vc80-mt-1_34_1.lib"
+			/>
+			<Tool Name="VCALinkTool" />
+			<Tool Name="VCXDCMakeTool" />
+			<Tool Name="VCBscMakeTool" />
+			<Tool Name="VCFxCopTool" />
+			<Tool Name="VCPostBuildEventTool" />
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\signals\src\connection.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\signals\src\named_slot_map.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\signals\src\signal_base.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\signals\src\slot.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\signals\src\trackable.cpp"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="boost_thread"
+	ProjectGUID="{AC3F9332-8EB5-540C-8C08-B33390873E49}"
+	RootNamespace="boost_thread"
+	Keyword="Win32Proj"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="4"
+			>
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCXMLDataGeneratorTool" />
+			<Tool Name="VCWebServiceProxyGeneratorTool" />
+			<Tool Name="VCMIDLTool" />
+			<Tool
+				Name="VCCLCompilerTool"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+				RuntimeLibrary="2"
+				ForceConformanceInForLoopScope="true"
+				TreatWChar_tAsBuiltInType="true"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				WarningLevel="3"
+				RuntimeTypeInfo="true"
+				PreprocessorDefinitions="BOOST_ALL_NO_LIB=1;BOOST_THREAD_BUILD_LIB=1;NDEBUG"
+				AdditionalIncludeDirectories=".\Client\boost_1_34_1\src"
+				AdditionalOptions="/EHs /wd4675"
+			/>
+			<Tool Name="VCManagedResourceCompilerTool" />
+			<Tool Name="VCResourceCompilerTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)\libboost_thread-vc80-mt-1_34_1.lib"
+			/>
+			<Tool Name="VCALinkTool" />
+			<Tool Name="VCXDCMakeTool" />
+			<Tool Name="VCBscMakeTool" />
+			<Tool Name="VCFxCopTool" />
+			<Tool Name="VCPostBuildEventTool" />
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\barrier.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\condition.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\exceptions.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\mutex.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\once.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\recursive_mutex.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\thread.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\tss_dll.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\tss_hooks.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\tss_pe.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\tss.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\boost_1_34_1\libs\thread\src\xtime.cpp"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
