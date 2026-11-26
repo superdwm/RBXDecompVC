@@ -3,6 +3,8 @@
 	ProjectType="Visual C++"
 	Version="8.00"
 	Name="Codejock.ToolkitPro.Static"
+	ProjectGUID="{C289D22A-56D3-45E4-B94C-B451882DAD27}"
+	RootNamespace="Codejock.ToolkitPro.Static"
 	Keyword="MFCProj"
 	>
 	<Platforms>
@@ -45,7 +47,7 @@
 				Optimization="2"
 				InlineFunctionExpansion="1"
 				AdditionalIncludeDirectories="../../Source,../../Source/Common"
-				PreprocessorDefinitions="WIN32;_LIB;NDEBUG"
+				PreprocessorDefinitions="WIN32;_LIB;NDEBUG;ZLIB_WINAPI"
 				StringPooling="true"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
@@ -8018,4 +8020,6 @@
 			</Filter>
 		</Filter>
 	</Files>
+	<Globals>
+	</Globals>
 </VisualStudioProject>
