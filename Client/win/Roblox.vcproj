@@ -243,7 +243,7 @@
 				EnableIntrinsicFunctions="true"
 				OmitFramePointers="true"
 				AdditionalIncludeDirectories="..\App\include;..\Network\include;..\RbxView\include;..\RbxViewBase;..\Rendering\RenderLib\include;..\Rendering\AppDraw\include;..\RbxGraphics\include;..\Network\raknet30\Source;..\..\util;..\Rendering\RenderLibNew;..\Rendering\RenderLibNew\include;..\boost_1_34_1\src;..\Rendering\g3d\include;&quot;..\App\lua-5.1.1\src&quot;;..\Rendering\g3d\png;..\Rendering\g3d\zlib;&quot;..\Rendering\SDL-1.2.6\include&quot;;&quot;..\Rendering\Mesa-6.5\include&quot;;&quot;..\..\3rdparty\Codejock Software\MFC\Xtreme ToolkitPro v11.2.1\Source&quot;;..\Rendering\OgreSDK\include;..\..\3rdparty\scintilla\include;&quot;..\..\3rdparty\Microsoft DirectX SDK (November 2007)\Include&quot;;..\fmod\api\inc"
-				PreprocessorDefinitions="NDEBUG;WIN32;_CRT_SECURE_NO_WARNINGS;_LIB;_VC80_UPGRADE=0x0710;_XTP_STATICLINK"
+				PreprocessorDefinitions="NDEBUG;WIN32;ENABLE_DECOMP_ASSERTS;_CRT_SECURE_NO_WARNINGS;_LIB;_VC80_UPGRADE=0x0710;_XTP_STATICLINK"
 				MinimalRebuild="true"
 				ExceptionHandling="1"
 				RuntimeLibrary="2"

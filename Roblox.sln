@@ -90,7 +90,6 @@ Global
 		{1EEC3D45-3888-5AE5-B5DC-48DD5352A1CB}.Debug|Win32.ActiveCfg = Debug|Win32
 		{1EEC3D45-3888-5AE5-B5DC-48DD5352A1CB}.Debug|Win32.Build.0 = Debug|Win32
 		{1EEC3D45-3888-5AE5-B5DC-48DD5352A1CB}.Release|WebService (Win32).ActiveCfg = Release|Win32
-		{1EEC3D45-3888-5AE5-B5DC-48DD5352A1CB}.Release|WebService (Win32).Build.0 = Release|Win32
 		{1EEC3D45-3888-5AE5-B5DC-48DD5352A1CB}.Release|Win32.ActiveCfg = Release|Win32
 		{1EEC3D45-3888-5AE5-B5DC-48DD5352A1CB}.Release|Win32.Build.0 = Release|Win32
 		{1EEC3D45-3888-5AE5-B5DC-48DD5352A1CB}.RelWithDebInfo|WebService (Win32).ActiveCfg = RelWithDebInfo|Win32
@@ -298,8 +297,8 @@ Global
 		{A6114FF9-9054-576A-9927-D2FEBD8247BD}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{C289D22A-56D3-45E4-B94C-B451882DAD27}.Debug|WebService (Win32).ActiveCfg = Debug|Win32
 		{C289D22A-56D3-45E4-B94C-B451882DAD27}.Debug|WebService (Win32).Build.0 = Debug|Win32
-		{C289D22A-56D3-45E4-B94C-B451882DAD27}.Debug|Win32.ActiveCfg = Debug|Win32
-		{C289D22A-56D3-45E4-B94C-B451882DAD27}.Debug|Win32.Build.0 = Debug|Win32
+		{C289D22A-56D3-45E4-B94C-B451882DAD27}.Debug|Win32.ActiveCfg = Dynamic Debug|Win32
+		{C289D22A-56D3-45E4-B94C-B451882DAD27}.Debug|Win32.Build.0 = Dynamic Debug|Win32
 		{C289D22A-56D3-45E4-B94C-B451882DAD27}.Release|WebService (Win32).ActiveCfg = Dynamic Release|Win32
 		{C289D22A-56D3-45E4-B94C-B451882DAD27}.Release|WebService (Win32).Build.0 = Dynamic Release|Win32
 		{C289D22A-56D3-45E4-B94C-B451882DAD27}.Release|Win32.ActiveCfg = Dynamic Release|Win32
@@ -415,7 +414,6 @@ Global
 		{6A50C123-25CE-5A36-878B-D105A780F21C}.Release|WebService (Win32).ActiveCfg = Release|Win32
 		{6A50C123-25CE-5A36-878B-D105A780F21C}.Release|WebService (Win32).Build.0 = Release|Win32
 		{6A50C123-25CE-5A36-878B-D105A780F21C}.Release|Win32.ActiveCfg = Release|Win32
-		{6A50C123-25CE-5A36-878B-D105A780F21C}.Release|Win32.Build.0 = Release|Win32
 		{6A50C123-25CE-5A36-878B-D105A780F21C}.RelWithDebInfo|WebService (Win32).ActiveCfg = Release|Win32
 		{6A50C123-25CE-5A36-878B-D105A780F21C}.RelWithDebInfo|WebService (Win32).Build.0 = Release|Win32
 		{6A50C123-25CE-5A36-878B-D105A780F21C}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
