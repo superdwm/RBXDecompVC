@@ -21,38 +21,129 @@
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="4"
 			>
-			<Tool Name="VCPreBuildEventTool" />
-			<Tool Name="VCCustomBuildTool" />
-			<Tool Name="VCXMLDataGeneratorTool" />
-			<Tool Name="VCWebServiceProxyGeneratorTool" />
-			<Tool Name="VCMIDLTool" />
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="3"
-				RuntimeLibrary="2"
-				ForceConformanceInForLoopScope="true"
-				TreatWChar_tAsBuiltInType="true"
+				AdditionalOptions="/EHs /wd4675"
 				Optimization="2"
 				InlineFunctionExpansion="2"
-				WarningLevel="3"
-				RuntimeTypeInfo="true"
-				PreprocessorDefinitions="BOOST_ALL_NO_LIB=1;BOOST_DATE_TIME_STATIC_LINK;DATE_TIME_INLINE;NDEBUG"
 				AdditionalIncludeDirectories=".\Client\boost_1_34_1\src"
-				AdditionalOptions="/EHs /wd4675"
+				PreprocessorDefinitions="BOOST_ALL_NO_LIB=1;BOOST_DATE_TIME_STATIC_LINK;DATE_TIME_INLINE;NDEBUG"
+				RuntimeLibrary="2"
+				TreatWChar_tAsBuiltInType="true"
+				ForceConformanceInForLoopScope="true"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
 			/>
-			<Tool Name="VCManagedResourceCompilerTool" />
-			<Tool Name="VCResourceCompilerTool" />
-			<Tool Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
 				OutputFile="$(OutDir)\libboost_date_time-vc80-mt-1_34_1.lib"
 			/>
-			<Tool Name="VCALinkTool" />
-			<Tool Name="VCXDCMakeTool" />
-			<Tool Name="VCBscMakeTool" />
-			<Tool Name="VCFxCopTool" />
-			<Tool Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="4"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="/EHs /wd4675"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories=".\Client\boost_1_34_1\src"
+				PreprocessorDefinitions="BOOST_ALL_NO_LIB=1;BOOST_DATE_TIME_STATIC_LINK;DATE_TIME_INLINE;NDEBUG"
+				RuntimeLibrary="2"
+				TreatWChar_tAsBuiltInType="true"
+				ForceConformanceInForLoopScope="true"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)\libboost_date_time-vc80-mt-1_34_1.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
 	<References>
@@ -64,15 +155,15 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\Client\boost_1_34_1\libs\date_time\src\gregorian\date_generators.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Client\boost_1_34_1\libs\date_time\src\gregorian\greg_month.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\Client\boost_1_34_1\libs\date_time\src\gregorian\greg_weekday.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\boost_1_34_1\libs\date_time\src\gregorian\date_generators.cpp"
 				>
 			</File>
 		</Filter>

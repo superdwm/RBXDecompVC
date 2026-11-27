@@ -22,42 +22,156 @@
 			ConfigurationType="2"
 			CharacterSet="2"
 			>
-			<Tool Name="VCPreBuildEventTool" />
-			<Tool Name="VCCustomBuildTool" />
-			<Tool Name="VCXMLDataGeneratorTool" />
-			<Tool Name="VCWebServiceProxyGeneratorTool" />
-			<Tool Name="VCMIDLTool" />
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				SuppressStartupBanner="true"
-				DebugInformationFormat="3"
-				RuntimeLibrary="0"
+				AdditionalOptions="/Zm1000 /EHs-c-"
 				Optimization="2"
 				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories=".\Client\Rendering\Mesa-6.5\include;.\Client\Rendering\Mesa-6.5\src\glu\sgi\include;.\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface;.\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals;.\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess"
+				PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;LIBRARYBUILD;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
 				StringPooling="true"
+				RuntimeLibrary="0"
 				EnableFunctionLevelLinking="true"
 				WarningLevel="0"
-				PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;LIBRARYBUILD;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-				AdditionalIncludeDirectories=".\Client\Rendering\Mesa-6.5\include;.\Client\Rendering\Mesa-6.5\src\glu\sgi\include;.\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface;.\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals;.\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess"
-				AdditionalOptions="/Zm1000 /EHs-c-"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
 			/>
-			<Tool Name="VCManagedResourceCompilerTool" />
-			<Tool Name="VCResourceCompilerTool" />
-			<Tool Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
-				TargetMachine="1"
-				GenerateDebugInformation="true"
-				LinkIncremental="1"
-				ModuleDefinitionFile=".\Client\Rendering\Mesa-6.5\src\glu\sgi\glu.def"
 				AdditionalDependencies="msvcrt.lib winmm.lib OPENGL32.lib kernel32.lib user32.lib gdi32.lib advapi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib"
 				OutputFile="$(OutDir)\GLU32.DLL"
+				LinkIncremental="1"
+				ModuleDefinitionFile=".\Client\Rendering\Mesa-6.5\src\glu\sgi\glu.def"
+				GenerateDebugInformation="true"
+				TargetMachine="1"
 			/>
-			<Tool Name="VCALinkTool" />
-			<Tool Name="VCXDCMakeTool" />
-			<Tool Name="VCBscMakeTool" />
-			<Tool Name="VCFxCopTool" />
-			<Tool Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="2"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="/Zm1000 /EHs-c-"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories=".\Client\Rendering\Mesa-6.5\include;.\Client\Rendering\Mesa-6.5\src\glu\sgi\include;.\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface;.\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals;.\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess"
+				PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;LIBRARYBUILD;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+				StringPooling="true"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				WarningLevel="0"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="msvcrt.lib winmm.lib OPENGL32.lib kernel32.lib user32.lib gdi32.lib advapi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib"
+				OutputFile="$(OutDir)\GLU32.DLL"
+				LinkIncremental="1"
+				ModuleDefinitionFile=".\Client\Rendering\Mesa-6.5\src\glu\sgi\glu.def"
+				GenerateDebugInformation="true"
+				TargetMachine="1"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
 	<References>
@@ -68,42 +182,6 @@
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\bezierEval.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\bezierPatch.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\bezierPatchMesh.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\glcurveval.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\glinterface.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\glrenderer.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\glsurfeval.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\incurveeval.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\insurfeval.cc"
-				>
-			</File>
 			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\arc.cc"
 				>
@@ -126,6 +204,18 @@
 			</File>
 			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\basicsurfeval.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\bezierEval.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\bezierPatch.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\bezierPatchMesh.cc"
 				>
 			</File>
 			<File
@@ -165,8 +255,56 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\dict.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\directedLine.cc"
+				>
+			</File>
+			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\displaylist.cc"
 				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\error.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\flist.cc"
@@ -177,7 +315,79 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\geom.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\glcurveval.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\glinterface.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\glrenderer.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\glsurfeval.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\glue.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\gridWrap.cc"
+				>
+			</File>
+			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\hull.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\incurveeval.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\interface\insurfeval.cc"
 				>
 			</File>
 			<File
@@ -201,11 +411,81 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\memalloc.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\mesh.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\mesher.cc"
 				>
 			</File>
 			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\monoTriangulationBackend.cc"
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\mipmap.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\monoChain.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\monoPolyPart.cc"
 				>
 			</File>
 			<File
@@ -213,8 +493,38 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\monoTriangulation.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\monoTriangulationBackend.cc"
+				>
+			</File>
+			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\mycode.cc"
 				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\normal.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\nurbsinterfac.cc"
@@ -222,6 +532,14 @@
 			</File>
 			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\nurbstess.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\partitionX.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\partitionY.cc"
 				>
 			</File>
 			<File
@@ -233,6 +551,88 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\polyDBG.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\polyUtil.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\primitiveStream.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\priorityq.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\project.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\quad.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\quicksort.cc"
+				>
+			</File>
+			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\quilt.cc"
 				>
 			</File>
@@ -241,7 +641,83 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\rectBlock.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\registry.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\render.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\renderhints.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampleComp.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampleCompBot.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampleCompRight.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampleCompTop.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampledLine.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampleMonoPoly.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\searchTree.cc"
 				>
 			</File>
 			<File
@@ -259,6 +735,72 @@
 			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\subdivider.cc"
 				>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\sweep.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\tess.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\tessmono.c"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						AdditionalOptions="/Zm1000"
+						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\tobezier.cc"
@@ -283,290 +825,6 @@
 			<File
 				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\internals\varray.cc"
 				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\directedLine.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\gridWrap.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\monoChain.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\monoPolyPart.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\monoTriangulation.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\partitionX.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\partitionY.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\polyDBG.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\polyUtil.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\primitiveStream.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\quicksort.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\rectBlock.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampleComp.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampleCompBot.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampleCompRight.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampleCompTop.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampleMonoPoly.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\sampledLine.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libnurbs\nurbtess\searchTree.cc"
-				>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\dict.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\geom.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\memalloc.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\mesh.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\normal.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\priorityq.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\render.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\sweep.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\tess.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libtess\tessmono.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\error.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\glue.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\mipmap.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\project.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\quad.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\Client\Rendering\Mesa-6.5\src\glu\sgi\libutil\registry.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions="BUILD_GL32;GLU_EXPORTS;NDEBUG;WIN32;_USRDLL;_WINDOWS;glu32_EXPORTS"
-						AdditionalOptions="/Zm1000"
-					/>
-				</FileConfiguration>
 			</File>
 		</Filter>
 	</Files>

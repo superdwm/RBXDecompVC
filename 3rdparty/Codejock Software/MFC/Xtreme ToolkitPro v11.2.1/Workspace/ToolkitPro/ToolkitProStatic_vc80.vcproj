@@ -623,6 +623,82 @@
 			/>
 		</Configuration>
 		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="4"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="../../Source,../../Source/Common"
+				PreprocessorDefinitions="WIN32;_LIB;NDEBUG;ZLIB_WINAPI"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				TreatWChar_tAsBuiltInType="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\Dynamic_Release/vc80/ToolkitProStatic.pch"
+				AssemblerListingLocation=".\Dynamic_Release/vc80/"
+				ObjectFile=".\Dynamic_Release/vc80/"
+				ProgramDataBaseFileName=".\Dynamic_Release/vc80/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				CompileAs="0"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="../../lib/vc80/ToolkitPro1121vc80DS.lib"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
 			Name="Dynamic Release|x64"
 			OutputDirectory=".\Dynamic_Release/vc80x64"
 			IntermediateDirectory=".\Dynamic_Release/vc80x64"
@@ -1303,6 +1379,14 @@
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Dynamic Unicode Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
 					>
 					<Tool
 						Name="VCCLCompilerTool"
@@ -3984,6 +4068,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -4116,6 +4208,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -4241,6 +4341,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -4384,6 +4492,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -4513,6 +4629,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -4652,6 +4776,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -4777,6 +4909,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -4924,6 +5064,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -5053,6 +5201,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -5200,6 +5356,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -5329,6 +5493,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -5469,6 +5641,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -5620,6 +5800,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -5760,6 +5948,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -5885,6 +6081,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -6024,6 +6228,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -6149,6 +6361,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -6288,6 +6508,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -6413,6 +6641,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -6552,6 +6788,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -6677,6 +6921,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -6816,6 +7068,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -6941,6 +7201,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -7080,6 +7348,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -7205,6 +7481,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -7344,6 +7628,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -7469,6 +7761,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
@@ -7608,6 +7908,14 @@
 							/>
 						</FileConfiguration>
 						<FileConfiguration
+							Name="Debug|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
 							Name="Dynamic Release|x64"
 							>
 							<Tool
@@ -7733,6 +8041,14 @@
 						</FileConfiguration>
 						<FileConfiguration
 							Name="Dynamic Unicode Release|Win32"
+							>
+							<Tool
+								Name="VCCLCompilerTool"
+								UsePrecompiledHeader="0"
+							/>
+						</FileConfiguration>
+						<FileConfiguration
+							Name="Debug|Win32"
 							>
 							<Tool
 								Name="VCCLCompilerTool"
