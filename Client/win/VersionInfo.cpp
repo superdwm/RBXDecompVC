@@ -1,4 +1,7 @@
+// WebService cannot link with MFC
+#ifndef webservice_EXPORTS
 #include "stdafx.h"
+#endif 
 #include "VersionInfo.h"
 
 // FUNCTION: ROBLOX 0x0046e640

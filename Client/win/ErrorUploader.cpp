@@ -1,4 +1,7 @@
+// WebService cannot link with MFC
+#ifndef webservice_EXPORTS
 #include "stdafx.h"
+#endif 
 #include "ErrorUploader.h"
 
 #include "LogManager.h"
